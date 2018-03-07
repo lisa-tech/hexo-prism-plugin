@@ -189,8 +189,10 @@ function importAssets(code, data) {
 // Register prism plugin
 hexo.extend.filter.register('after_post_render', PrismPlugin);
 
+/*
 // Register to append static assets
 hexo.extend.generator.register('prism_assets', copyAssets);
 
 // Register for importing static assets
 hexo.extend.filter.register('after_render:html', importAssets);
+*/
